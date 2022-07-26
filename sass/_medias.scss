@@ -1,0 +1,301 @@
+//  Index 
+@media (max-width:870px) {
+    .logo {
+        width: 200px;
+        height: 150px;
+    }
+
+    .ul-index {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+
+    .item {
+        font-size: 15px;
+    }
+}
+
+
+@media (max-width:450px) {
+    .ul-index {
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(3, auto);
+        gap: 5px;
+    }
+
+    .navbar__index {
+        border: none;
+        margin-bottom: 100px;
+    }
+
+    .menu__index {
+        text-align: center;
+    }
+
+    .item {
+        font-size: 17px;
+    }
+
+    .vistos__title {
+        margin: 50px 0px 50px 0px;
+    }
+}
+
+@media (max-width:375px) {
+    .logo {
+        width: 150px;
+        height: 100px;
+    }
+
+    .ul-index {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(3, auto);
+        gap: 5px;
+    }
+
+    .item {
+        font-size: 15px;
+    }
+
+    .vistos__title {
+        margin: 50px 0px 50px 0px;
+    }
+}
+
+//  Fin Medias index 
+
+
+/* Medias Productos */
+@media (max-width:1065px) {
+    .producto__grid {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+}
+@media (max-width: 768px) {
+    .header {
+        display: none;
+        width: 0 auto;
+    }
+
+    .contenedor__titulos {
+        font-size: 15.2px;
+    }
+
+    .subtitulo {
+        display: inline-block;
+        /* width: 50%; */
+        padding: 10px;
+        margin-bottom: 30px;
+        background-color: #d9cf3fda;
+        border-radius: 10px 0px 10px 0px;
+    }
+
+    .texto {
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .nuestrosproductos {
+        display: inline-block;
+        padding: 10px;
+        margin: 0;
+        width: 100%;
+        background-color: yellow;
+        border-radius: 30px 0px 30px 0px;
+        text-align: center;
+    }
+
+    .producto__grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 425px) {
+    .header {
+        display: none;
+    }
+
+    .contenedor__titulos {
+        font-size: 15px;
+    }
+
+    .nuestrosproductos {
+        display: inline-block;
+        padding: 10px;
+        margin: 0;
+        width: 100%;
+        background-color: yellow;
+        border-radius: 30px 0px 30px 0px;
+        text-align: center;
+    }
+
+    .subtitulo {
+        display: inline-block;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 30px;
+        background-color: #d9cf3fda;
+        border-radius: 10px 0px 10px 0px;
+    }
+
+    .texto {
+        font-size: 10px;
+        width: 100%;
+    }
+
+    .producto__grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 340px) {
+    .tarjeta__producto {
+        width: 100px;
+        height: 200px;
+      }
+}
+
+/* Fin Productos */
+
+/* Medias Nosotros */
+@media (min-width: 768px) and (max-width: 1200px) {
+    .videoyt {
+        height: 280px;
+    }
+}
+
+@media (min-width: 560px) and (max-width:768px) {
+    .header {
+        display: none;
+    }
+
+    .videoyt {
+        height: 250px;
+    }
+
+}
+
+@media (min-width: 425px) and (max-width:560px) {
+    .header {
+        display: none;
+    }
+
+    .montotm {
+        width: 100%;
+    }
+
+    .quienessomos {
+        width: 100%;
+    }
+
+    .videoyt {
+        height: 200px;
+    }
+
+    .footer {
+        width: 560px;
+    }
+}
+
+@media (min-width: 375px) and (max-width:425px) {
+    .header {
+        display: none;
+    }
+
+    .videoyt {
+        height: 200px;
+        width: 400px;
+        box-shadow: none;
+    }
+
+    .footer {
+        width: 560px;
+    }
+}
+
+@media (min-width: 320px) and (max-width:375px) {
+    .header {
+        display: none;
+    }
+
+    .quienessomos {
+        width: 100%;
+    }
+
+    .montotm {
+        width: 100%;
+    }
+
+
+    .videoyt {
+        height: 250px;
+        width: 350px;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+}
+
+/* Fin Medias Nosotros */
+
+/* Media Contacto */
+@media (max-width: 768px) {
+    .header {
+        display: none;
+    }
+
+    .title {
+        width: 50%;
+    }
+
+    .checkbox {
+        width: 545px;
+    }
+
+    .footer {
+        width: 765px;
+    }
+}
+
+@media (max-width: 545px) {
+    .title {
+        width: 70%;
+    }
+
+    .checkbox {
+        width: 615px;
+    }
+
+    .footer {
+        width: 765px;
+    }
+
+    .fieldset__genero {
+        width: 570px;
+    }
+}
+
+@media (max-width: 319px) {
+    .title {
+        width: 70%;
+    }
+
+    .checkbox {
+        width: 570px;
+    }
+
+    .footer {
+        width: 570px;
+    }
+
+    .fieldset__genero {
+        width: 570px;
+    }
+}
+
+/* Fin media contacto */
