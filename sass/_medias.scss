@@ -75,7 +75,12 @@
     }
 }
 @media (max-width: 768px) {
-
+    .navbar {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(3, auto);
+        gap: 5px;
+    }
     .header{
             background-color: #E83A14;
             color: #e2e8f0;
@@ -268,8 +273,8 @@
 
 /* Media Contacto */
 @media (max-width: 768px) {
-    .header {
-        display: none;
+    .navbar {
+        width: 100%;
     }
 
     .title {
